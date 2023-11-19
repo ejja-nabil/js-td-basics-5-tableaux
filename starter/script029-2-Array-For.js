@@ -9,13 +9,25 @@ const films = ["Forrest Gump", "Bohemian Rhapsody", "Le Seigneur des anneaux", "
 // 2. Parcourez ce tableau pour afficher les films qu'il contient :
 //    1°) avec une boucle for
 console.log("Avec une boucle for :");
+for (let i = 0; i<4;i++){
+    console.log(films[i]);
+}
 
 
 //    2°) avec une boucle while
 console.log("Avec une boucle while :");
+let i = 0;
+while (i<films.length){
+    console.log(films[i]);
+    i++;
+}
 
 //    3°) avec une boucle for of
 console.log("Avec une boucle for of :");
+
+for (let film of films ){
+    console.log(film);
+}
 
 
 // EXERCICE 2 :

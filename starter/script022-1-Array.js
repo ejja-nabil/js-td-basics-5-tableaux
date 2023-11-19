@@ -20,3 +20,35 @@
 // 5. Un tableau peut contenir des données de différents types
 // 6. Méthodes associées à un tableau
 // EXERCICE 5 : Suivez les consignes pour manipuler le tableau de fruits
+
+//Ex 1
+const semaine = ['lundi', 'mardi', 'mercredi', 'jeudi', 'vendredi', 'samedi', 'dimanche'];
+
+//Ex 2
+
+console.log(semaine[0], semaine[6]);
+
+//Ex 3
+
+console.log(semaine.length, semaine[6]);
+
+//Ex 4
+
+semaine[5]='Saturday';
+let i=0
+
+while (i<7){
+    console.log(semaine[i]);
+    i++;
+}
+
+let jourFerie = semaine[6];
+
+console.log(jourFerie);
+const nouveauJour='dimanche2';
+semaine.push(nouveauJour);
+
+while (i<8){
+    console.log(semaine[i]);
+    i++;
+}
